@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      Daedalus JP 简易攻略
+subtitle:   Daedalus JP 简易攻略
+date:       2019-06-07
+author:     BY
+header-img: 
+catalog: true
+tags:
+    - AVG
+---
+
 # 第0章 解明
 
 - ドアにはカギがかかっていた
