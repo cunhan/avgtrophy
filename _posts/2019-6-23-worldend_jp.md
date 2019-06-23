@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      WorldEnd Syndrome 世界终末症候群 白金攻略
-subtitle:   
-date:       2019-06-023
-author:     BY
+subtitle:   X
+date:       2019-06-23
+author:     BY 歌荒
 header-img: 
 catalog: true
 tags:
