@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      WorldEnd Syndrome 世界终末症候群 白金攻略
+subtitle:   
+date:       2019-06-023
+author:     BY
+header-img: 
+catalog: true
+tags:
+    - AVG
+---
+
 设定
 
 メニュー＞オプション＞スキップモード（強制）
