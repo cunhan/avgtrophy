@@ -306,7 +306,7 @@ I guess so.
 ||夜|【自由】Mansion>Living Room|
 |8月16日|午前|Mansion（强制）|
 ||午后|Station（Yukino+）|
-||夜|【自由】K. Manor>Takagami  Shrine（山城先生と涼子）|
+||夜|【自由】Station>Sazanami St. （回收左下的人物资料）|
 |8月17日|午前|Station|
 ||午后|K. Manor（Yukino+）|
 ||夜|Mansion>Living Room（Yukino）|
