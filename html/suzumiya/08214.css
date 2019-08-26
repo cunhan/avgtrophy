@@ -1,0 +1,1437 @@
+/*************************************** ▼ 全体 ▼ */
+html ,* html body {  
+height: 100%;  
+overflow-y: auto;  
+overflow-x: auto;
+font:13px ＭＳ Ｐゴシック,sans-serif;
+}
+* html #wrap {  
+overflow: auto;  
+position: relative;  
+width: 100%;  
+height: 100%;  
+}
+
+#scroll {
+position: fixed !important;  
+position: absolute;  
+top: 320px;
+left:50%;
+text-align:center;
+width:45px;
+background-color:#ffffff;
+margin-left:506px;
+padding:5px 0px 5px 0px;
+border:1px solid #666666;
+}
+#toprss {
+width:1010px;
+height:150px;
+margin-top:auto;
+background:#ffffff;
+}
+
+#topimglinks .antennash_imglink {
+width:185px;
+height:112px;
+float:left;
+margin:0px 0px 0px 2px;
+}
+.inter-link .antennash_imglink {
+width:243px;
+height:138px;
+float:left;
+margin:2px 2px 2px 2px;
+}
+.side-link .antennash_imglink {
+width:230px;
+height:129px;
+float:left;
+margin:5px 0px 0px 0px;
+}
+#rmenu .antennash_imglink {
+width:180px;
+height:101px;
+float:left;
+margin:10px 0px 5px 0px;
+}
+a:hover .antennash_imglink {
+opacity:0.7;
+filter: alpha(opacity=70);
+-moz-opacity: 0.7;
+}
+
+div.under-article .blogroll-channel,
+div.under-article .blogroll-channel * {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: left;
+}
+div.under-article .blogroll-channel {
+    height: 170px;
+    margin-bottom: 15px;
+    padding: 0px;
+    background: #fff;
+    overflow-y: scroll;
+}
+
+div.under-article .blogroll-channel .blogroll-list-wrap {
+    margin-bottom: 10px;
+}
+
+div.under-article .blogroll-channel .blogroll-list {
+    list-style-type: none;
+    margin-bottom: 3px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+div.under-article .blogroll-channel .blogroll-list img {
+    vertical-align: middle;
+}
+
+div.under-article .blogroll-channel img.blogroll-icon,
+div.under-article .blogroll-channel img.blogroll-favicon {
+    margin: 0 5px 0 0;
+}
+
+div.under-article .blogroll-channel img.blogroll-favicon {
+	width: 16px;
+	height: 16px;
+}
+
+div.under-article .blogroll-channel a.blogroll-link {
+}
+
+div.under-article .blogroll-channel .blogroll-new-entry {
+    margin-left: 5px;
+    color: red;
+}
+
+div.under-article .blogroll-channel .blogroll-clip,
+div.under-article .blogroll-channel .blogroll-hatebu {
+    margin: 0 0 0 5px;
+}
+
+div.under-article .blogroll-channel .blogroll-link-time {
+    margin: 0 0 0 3px;
+    color: #666;
+    font-size: 10px;
+}
+
+div.under-article .blogroll-channel .blogroll-ad-img {
+}
+
+div.under-article .blogroll-channel .blogroll-ad-text {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+    font-size: 12px;
+}
+/*************************************** ▲ 全体 ▲ */
+body { 
+line-height:1.5;
+margin:0;
+padding:0;
+color:#000000; 
+background:#fff;                       /* 外側背景色 */
+} 
+#outline { 
+background:#ddd;                     /* サイト背景色 */
+}
+#upheader {
+background:#fff;
+}
+#topline { 
+margin:auto;
+width:1010px;
+height:32px;
+line-height:32px;
+background-color:#cfcfcf;
+}
+#image_title {
+float:left;
+text-align:center;
+width:255px;
+height:120px;
+margin:0px 0px 5px 0px;
+}
+
+/*************************************** ▼ カウンター ▼ */
+#counter {
+font-size:8pt;
+text-align:right;
+line-height:0.5;
+padding:0px 0px 0px 0px; 
+}
+#counter a:hover {
+background-color:#ffffff;
+text-decoration:none;
+}
+/*************************************** ▲ カウンター ▲ */
+
+
+/******************************************* ▼ サイトの幅 ▼ */
+#header_body { 
+height:288px;                                            /* 左 */
+background-color:#ffffff;
+padding:0px 0px 0px 0px;
+}
+#outline { 
+width:1010px;                                         /* 全体 */
+margin:0 auto; 
+}
+#center { 
+width:540px;                                          /* 中央 */
+float:left; 
+margin:10px;
+} 
+#left { 
+width:230px;                                            /* 左 */
+float:left; 
+margin:10px 0px 10px 10px;
+} 
+#right { 
+width:200px;                                            /* 右 */
+float:right;
+margin:10px 10px 10px 0px;
+background:#ffffff;
+} 
+#center-right {             /* 計算して設定してください ------ */
+margin:auto;
+width:770px;               /* (全体-左-中央-右)/2 + 左 + 中央 */
+float:right; 
+} 
+/******************************************* ▲ サイトの幅 ▲ */
+
+
+/******************************* ▼ リンクの色と下線の有無 ▼ */
+a:link {
+color:#0000FF;
+text-decoration:none;
+}
+a:active {
+color:#0000FF;
+text-decoration:none;
+}
+a:visited {
+color:#0000FF;
+text-decoration:none;
+}
+a:hover {
+color:#ff0080;
+text-decoration:underline;
+}
+#outline a:hover img {
+opacity: 0.5;
+filter: alpha(opacity=50);
+-ms-filter: "alpha( opacity=50 )";
+}
+/******************************* ▲ リンクの色と下線の有無 ▲ */
+
+
+/*************************************** ▼ ブログタイトル ▼ */
+.blogtitle {
+float:left;
+line-height:32px;
+padding-left:5px;
+}
+h1 { 
+font-size:12px;
+padding:0px 0px 0px 5px;
+margin:0px;
+}
+
+/* ▽ブログタイトルリンク▽ */
+h1 a:link {
+color:#111111;
+text-decoration:none;
+}
+h1 a:active {
+color:#111111;
+text-decoration:none;
+}
+h1 a:visited {
+color:#111111;
+text-decoration:none;
+}
+h1 a:hover {
+color:#ff0000;
+text-decoration:underline;
+}
+/* △ブログタイトルリンク△ */
+/*************************************** ▲ ブログタイトル ▲ */
+
+
+/***************************************** ▼ サイト紹介文 ▼ */
+.intro { 
+height:18px;
+line-height:18px;
+text-align:left;
+padding-left:5px;
+font-size:12px;
+color:#333333;
+}
+/***************************************** ▲ サイト紹介文 ▲ */
+
+
+/************************************* ▼ コンテンツナビ ▼ */
+.menu-bar {
+width:1010px;
+background-color:#333333;
+height:34px;
+line-height:34px;
+margin:0px;
+}
+.navi_l {
+float:left;
+padding:2px 0px 0px 2px;
+}
+.navi_r {
+float:right;
+text-align:right;
+margin: 0px;
+padding:0px 2px 0px 0px;
+}
+/************************************* ▲ コンテンツナビ ▲ */
+
+
+/************************************ ▼ Google検索窓 ▼ */
+.qlook { 
+text-align:left;
+margin:8px 0px 0px 0px;
+}
+body #eqfirst {display: none;}
+#eqfirst,#eqlast {
+display: block;
+}
+.mid-contents {
+border:1px solid #777777;
+background-color:#FFFFFF;
+margin: 10px 0px 10px 0px; /* 余白: 上部　左右　下部 */
+}
+/************************************ ▲ Google検索窓 ▲ */
+
+
+/************************************************* ▼ 記事 ▼ */
+.ently_outline { 
+background-color:#FFFFFF;
+margin-bottom:10px;
+border:1px solid #777777;
+} 
+.ently_title { 
+font-size:13px;
+background-color:#008000;
+text-align:left;
+height:28px;
+line-height:28px;
+border-left: solid 10px #ff962d;
+padding-left:10px;
+margin:0px;
+} 
+.n-onebutton {
+border:3px solid #cccccc;
+padding:5px 0px 0px 25px;
+}
+h3 {
+font-size: 13px;
+margin: 25px 0px 15px 0px ;
+color:#ffffff;
+background-color:#555555;
+font-weight:bold;
+border-left:10px solid #f8CB16;
+padding:0px 0px 0px 10px;
+height:26px;
+line-height:26px;
+}
+h3.daily-article {
+font-size: 13px;
+margin: 25px 0px 15px 0px ;
+color:#ffffff;
+background-color:#555555;
+font-weight:bold;
+border-left:10px solid #f8CB16;
+padding:0px 0px 0px 10px;
+height:46px;
+line-height:23px;
+}
+h4 {
+font-size:13px;
+margin: 20px 0px 20px 0px ;
+font-weight:bold;
+padding:0px 0px 0px 10px;
+border-left: solid 10px #0000ff;
+border-bottom: solid 2px #0000ff;
+line-height:1.8;
+}
+h5 {
+font-size:13px;
+text-align:center;
+margin: 5px 0px 20px 0px ;
+font-weight:bold;
+padding:3px 0px 2px 0px;
+border: solid 1px #000000;
+}
+.nr-title {
+font-size:14px;
+text-align:center;
+margin: 15px 0px 15px 0px ;
+font-weight:bold;
+padding:2px 0px 2px 10px;
+border: solid 1px #666666;
+}
+.red-square {
+border: solid 1px #ff0000;
+padding:5px;
+}
+.black-square {
+border: solid 1px #000000;
+padding:2px 5px 2px 5px;
+}
+.blue-square {
+border: solid 1px #0000ff;
+padding:2px 5px 2px 5px;
+}
+a[name="aboutps3"],a[name="readyps3"],a[name="funcps3"],a[name="torneps3"],a[name="concps3"],a[name="moreps3"],a[name="gradeupps3"] {
+color:#555555;
+text-decoration:none;
+}
+a[name="gt5-licence"],a[name="gt5-sp-event"],a[name="gt5-online-event"] {
+color:#000000;
+text-decoration:none;
+}
+
+a[name="fy"],a[name="us1"],a[name="leb1"],a[name="leb-us1"],a[name="bb"],a[name="fd"],a[name="hg"],a[name="zk"],a[name="el1"],a[name="ce"],a[name="us2"],a[name="sn"],a[name="un"],a[name="un"],a[name="us3"],a[name="leb-us2"],a[name="gp"],a[name="gg"],a[name="by1"],a[name="bm"],a[name="yb"],a[name="gr"],a[name="vf"],a[name="if"],a[name="ix"],a[name="zm"],a[name="kv"],a[name="yb"],a[name="el2"],a[name="rtl"],a[name="ry"],a[name="pi"],a[name="by2"],a[name="gp"],a[name="ng"],a[name="exp"],a[name="ge"],a[name="fb"],a[name="mpr"],a[name="jtd"],a[name="am"],a[name="sv"],a[name="m3"],a[name="anm"],a[name="vg1"],a[name="vg2"],a[name="vg3"],a[name="vg4"],a[name="sin"] {
+color:#ffffff;
+text-decoration:none;
+}
+
+.left-side {
+float:left;
+width:150px;
+text-align:right;
+}
+.right-side {
+width:300px;
+text-align:left;
+}
+.float-clear {
+text-align:left;
+color:#000000;
+background-color:#ffff00;
+font-weight:bold;
+padding:2px 0px 2px 10px;
+margin:25px 0px 10px 0px;
+border-bottom: solid 2px #ff0000;
+}
+.next {
+text-align:center;
+font-weight:bold;
+border:1px solid #000000;
+color:#460000;
+padding:3px 0px 3px 0px;
+margin:25px 0px 10px 0px;
+}
+.suggest {
+font-weight:bold;
+border-bottom:1px solid #460000;
+color:#000000;
+padding:5px 0px 1px 0px;
+margin:5px 0px 5px 0px;
+}
+.under-navi-l {
+float:left;
+width:300px;
+}
+.under-navi-r {
+text-align:right;
+float:right;
+padding:30px 0px 0px 0px;
+width:180px;
+}
+.under-article-title {
+font-size:14px;
+border-bottom:2px solid #333333;
+}
+.under-article {
+margin-top:10px;
+}
+
+h3 a:hover {
+color:#FFFFFF;
+text-decoration:none;
+}
+h4 a:hover {
+color:#000000;
+text-decoration:none;
+}
+
+/* ▽記事タイトルリンク▽ */
+h2 a:link {
+color:#ffffff;
+text-decoration:none;
+}
+h2 a:active {
+color:#ffffff;
+text-decoration:none;
+}
+h2 a:visited {
+color:#ffffff;
+text-decoration:none;
+}
+h2 a:hover {
+color:#ffffff;
+text-decoration:underline;
+}
+/* △記事タイトルリンク△ */
+
+.ently_body { 
+font-size:13px;
+color:#111111;
+padding:10px;
+border-top:3px solid #999999;
+} 
+.ently_text {
+text-align:left;
+line-height:1.4;
+margin:10px 10px; 
+}
+.top-com-td {
+padding: 0.3em 5px;
+border-collapse: collapse;
+border-spacing: 0;
+border: 1px solid #777777;
+}
+.bottom-comt {
+text-align:center;
+margin:30px 0px 30px 0px;
+}
+.twrap {
+float:right;
+margin:auto;
+}
+.twrap-comt {
+text-align:right;
+}
+.twrap-img {
+float:left;
+text-align:center;
+width:135px;
+border:1px solid #cccccc;
+}
+.inner-box {
+background:#b9dcff;
+padding:5px;
+margin:5px 0px 5px 0px;
+border:2px solid #0080c0;
+}
+.f12012set1 {
+color:#ffffff;
+background-color:#099497;
+font-weight:bold;
+padding-left:5px;
+}
+.f12012set2 {
+color:#ffffff;
+background-color:#0aafb4;
+font-weight:bold;
+padding-left:5px;
+}
+.f12012set3 {
+color:#099497;
+background-color:#efefef;
+font-weight:bold;
+padding-left:5px;
+}
+.f12012_res2 {
+color:#ffffff;
+text-align:center;
+font-weight:bold;
+}
+.f12012_res3 {
+color:#ffffff;
+background-color:#0aafb4;
+font-weight:bold;
+text-align:center;
+width:70px;
+}
+.f12012_res4 {
+color:#ffffff;
+background-color:#555555;
+font-weight:bold;
+text-align:center;
+}
+.f12012_res1 {
+color:#ffffff;
+font-weight:bold;
+text-align:center;
+background-color:#999999;
+}
+
+.f12013set1 {
+color:#333333;
+background:#dfdfdf;
+font-weight:bold;
+padding-left:5px;
+}
+.f12013set2 {
+color:#FFFFFF;
+background:#008080;
+font-weight:bold;
+padding-left:5px;
+}
+.f12013set3 {
+color:#FFFFFF;
+background:#777777;
+font-weight:bold;
+padding-left:5px;
+}
+
+.f12014set1 {
+color:#FFF;
+background:#222;
+font-weight:bold;
+padding-left:5px;
+}
+.f12014set2 {
+color:#FFF;
+background:#555;
+font-weight:bold;
+padding-left:5px;
+}
+.f12014set3 {
+color:#222;
+background:#CCC;
+font-weight:bold;
+padding-left:5px;
+}
+.f12014_res2 {
+color:#ffffff;
+background:#222;
+text-align:center;
+font-weight:bold;
+}
+.f12014_res3 {
+color:#ffffff;
+background:#555;
+font-weight:bold;
+text-align:center;
+width:70px;
+}
+.f12014_res4 {
+color:#222;
+background:#CCC;
+font-weight:bold;
+text-align:center;
+}
+
+.tt-td {
+color:#ffffff;
+text-align:center;
+font-weight:bold;
+}
+.tt-td1 {
+color:#ffffff;
+text-align:center;
+font-weight:bold;
+background-color:#099497;
+width:40px;
+}
+.tt-td2 {
+color:#ffffff;
+text-align:center;
+font-weight:bold;
+background-color:#099497;
+width:40px;
+}
+
+.chara-loca1 {
+width:50px;
+padding:5px;
+background:#ededed;
+font-weight:bold;
+}
+.chara-loca2 {
+width:50px;
+padding:5px;
+background:#ddff55;
+font-weight:bold;
+}
+
+.madomagi-date {
+padding-left:7px;
+height:24px;
+line-height:24px;
+background:#000080;
+color:#ffffff;
+font-weight:bold;
+margin:0px 2px 0px 2px;
+}
+
+.asa {
+width:20px;
+padding:5px;
+text-align:center;
+font-weight:bold;
+background:#ffffb0;
+}
+.hiru {
+width:20px;
+padding:5px;
+text-align:center;
+font-weight:bold;
+background:#d7ffff;
+}
+.yuu {
+width:20px;
+padding:5px;
+text-align:center;
+font-weight:bold;
+background:#ffe8d0;
+}
+.yoru {
+width:20px;
+padding:5px;
+text-align:center;
+font-weight:bold;
+background:#d2d2ff;
+}
+.madomagi-contents1 {
+padding:5px;
+background:#ededed;
+}
+
+.red-bold {
+font-weight:bold;
+color:#ff0000;
+}
+.kanjou-plus {
+font-weight:bold;
+color:#ff0080;
+margin-left:5px;
+}
+.kanjou-minus {
+font-weight:bold;
+color:#379bff;
+margin-left:5px;
+}
+.inga {
+font-weight:bold;
+color:#800080;
+margin-left:5px;
+}
+
+.q-bottun {
+font-weight:bold;
+padding:3px;
+margin-bottom:3px;
+background:#8eff8e;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+}
+
+.std-td-t {
+line-height:1.2;
+color:#ffffff;
+background-color:#555555;
+padding-left:5px;
+}
+.std-td {
+line-height:1.2;
+padding-left:5px;
+}
+
+.sankaku {font-weight:bold;color:#00ff40;}
+.sikaku {font-weight:bold;color:#ff00ff;}
+.maru {font-weight:bold;color:#ff3300;}
+.batsu {font-weight:bold;color:#0080ff;}
+.trigger {
+font-weight:bold;
+color:#ffffff;
+background:#777777;
+padding:0px 5px 0px 5px;
+border-radius: 5px;        /* CSS3草案 */  
+-webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+-moz-border-radius: 5px;   /* Firefox用 */
+}
+.rescue {font-weight:bold;color:#800080;}
+.tele-messe {font-weight:bold;color:#0080ff;}
+.lollipop-case {font-weight:bold;color:#cca506;}
+.named-zombie {font-weight:bold;color:#800000;}
+
+.td-race-a1 {
+font-size:12px;
+line-height:1.4;
+background-color:#ffffd2;
+text-align:center;
+}
+.td-race-a2 {
+font-size:12px;
+line-height:1.4;
+background-color:#ffffd2;
+padding-left:5px;
+}
+.td-race-b1 {
+font-size:12px;
+line-height:1.4;
+background-color:#e8ffff;
+text-align:center;
+}
+.td-race-b2 {
+font-size:12px;
+line-height:1.4;
+background-color:#e8ffff;
+padding-left:5px;
+}
+
+.inner-inner-box {
+font-weight:normal;
+background:#efefef;
+line-height:1.5;
+padding:5px;
+border:2px dotted #cc0000;
+}
+div.inner-inner-box img {
+width:458px;
+}
+div.spclass240 img {
+width:240px;
+}
+div.spclass85 img {
+width:85px;
+}
+
+.twi-mat {
+font-weight:bold;
+text-align:center;
+margin:50px 0px 50px 0px;
+}
+
+.ff13-2a {
+color:#ffffff;
+background-color:#999999;
+font-weight:bold;
+padding:5px;
+}
+.ff13-2b {
+border:1px solid #999999;
+margin-top:1px;
+padding:5px;
+}
+
+.gtl1 {
+font-weight:bold;
+color:#ffffff;
+background-color:#ce0000;
+line-height:1.5;
+height:18px;
+text-align:center;
+}
+.gtl2 {
+font-weight:bold;
+color:#ffffff;
+background-color:#0000ff;
+line-height:1.5;
+padding-left:10px;
+}
+.gtl3 {
+font-weight:bold;
+color:#ffffff;
+background-color:#666666;
+line-height:1.5;
+height:18px;
+text-align:center;
+}
+.gtl4 {
+line-height:1.5;
+padding-left:10px;
+}
+.gtl5 {
+line-height:1.5;
+text-align:center;
+}
+.gtlp1 {
+font-weight:bold;
+color:#ffffff;
+background-color:#ff8000;
+line-height:1.5;
+height:18px;
+padding-left:10px;
+}
+.gtlp2 {
+line-height:1.5;
+height:18px;
+padding-left:10px;
+}
+.movie-size1 {
+width:472px;
+height:265px;
+}
+.movie-size2 {
+width:470px;
+height:264px;
+}
+.gmovie {
+width:500px;
+height:281px;
+}
+.ently_navi { 
+border-top:1px solid #777777;
+text-align:right;                     /* 時刻・CM・TB */
+margin:5px 5px 0px; 
+} 
+.mt-header {
+background: #E0FFFF;
+font-size:12px;
+line-height:15px;
+padding:5px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.matome-item {
+margin-bottom:50px;
+}
+/************************************************* ▲ 記事 ▲ */
+
+
+/*************************** ▼ 左側メニュー(プラグイン１) ▼ */
+.plugin1_outline { 
+margin:0px 0px 0px 0px;
+border:1px solid #777777;
+} 
+.plugin1_title { 
+font-size:13px;
+color:#ffffff;
+height:28px;
+line-height:28px;
+font-weight:bold;
+background-color:#333333;
+padding:1px 0px 0px 7px;
+} 
+.plugin1_body { 
+font-size:12px;
+color:#000000;
+background-color:#fcfcfc;
+padding:5px 5px 5px 5px; 
+line-height:1.3;
+border-top:3px solid #999999;
+} 
+.contents-title {
+font-size:13px;
+font-weight:bold;
+border:1px solid #666666;
+padding: 2px 0px 0px 5px ;
+margin: 10px 0px 5px 0px ;
+}
+.left-navi {
+line-height:1.4;
+}
+/*************************** ▲ 左側メニュー(プラグイン１) ▲ */
+
+
+/*************************** ▼ 右側メニュー(プラグイン２) ▼ */
+#rmenu { 
+background:#ffffff;
+padding:0px;
+margin:0px;
+border:1px solid #777777;
+}
+.plugin2_outline { 
+background:#ffffff;
+padding:0px;
+margin:0px;
+} 
+.plugin2_title { 
+font-weight:bold;
+font-size:12px;
+padding:5px 0px 5px 10px;
+margin:5px 5px 10px 5px;
+border-radius: 5px;        /* CSS3草案 */  
+-webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+-moz-border-radius: 5px;   /* Firefox用 */
+color:#ffffff;
+background-color:#555555;
+} 
+.plugin2_body { 
+font-size:12px;
+color:#111111;
+background-color:#ffffff;
+padding:0px;
+line-height:1.4;
+} 
+.ps3-item {
+width:218px;
+text-align:center;
+background:#ffffff;
+}
+div.ps3-item img {
+width: 150px;
+}
+#feed1 img {
+width: 135px;
+}
+#feed2 img {
+width: 135px;
+}
+#feed3 img {
+width: 135px;
+}
+/*************************** ▲ 右側メニュー(プラグイン２) ▲ */
+
+
+/*************************** ▼ 上部メニュー(プラグイン３) ▼ */
+.plugin3_outline { 
+border:#333333 0px solid;
+background-color:#FFFFFF;
+margin:0px 0px 10px 0px;
+border:1px solid #777777;
+} 
+.plugin3_title {
+font-size:13px;
+font-weight:bold;
+color:#ffffff;
+background-color:#004080;
+text-align:left;
+line-height:1.8;
+border-left: solid 10px #ff962d;
+padding:1px 0px 0px 10px;
+margin:0;
+} 
+.plugin3_body { 
+font-size:13px;                           /* 文字サイズ(本体) */
+color:#111111;                            /* 文字色    (本体) */
+background-color:#ffffff;                 /* 背景色    (本体) */
+padding:1px;
+line-height:1.5;
+border-top:3px solid #999999;
+}
+r-title a:link {
+color:#555555;
+text-decoration:none;
+}
+r-title a:active {
+color:#555555;
+text-decoration:none;
+}
+r-title a:visited {
+color:#555555;
+text-decoration:none;
+}
+r-title a:hover {
+color:#999999;
+text-decoration:underline;
+}
+/************************** ▲ 上部メニュー(プラグイン３) ▲ */
+#topimglinks {
+float:right;
+width:748px;
+margin:5px 0px 0px 0px;
+}
+#g-ads1 { 
+float:right;
+text-align:center;
+width:748px;
+margin:10px 10px 0px 0px;
+padding:5px 0px 5px 0px;
+border:1px solid #777;
+background:#fff;
+}
+.inner-rss { 
+text-align:left;
+height:152px;
+overflow:auto;
+padding:0px;
+margin:0px;
+}
+.rss2 { 
+width:500px;
+font-weight:bold;
+margin:0px 0px 10px 0px;
+font-size:13px;                          
+line-height:1.5;
+}
+.under-article a:link { color:#0000FF;text-decoration:none; }
+.under-article a:active { color:#0000FF;text-decoration:none; }
+.under-article a:visited { color:#0000FF;text-decoration:none; }
+.under-article a:hover { color:#ff0080;text-decoration:none; }
+
+.inner-rss2 { 
+text-align:left;
+height:188px;
+overflow:auto;
+border:#a0a0a0 1px solid;
+padding:5px 0px 5px 5px;
+}
+#rss3 { 
+width:528px;
+margin:15px 0px 10px 0px;
+font-size:12px;                          
+line-height:1.5;
+padding:5px;
+background-color:#FFFFFF;
+border:#777777 1px solid;
+}
+.inner-rss3 { 
+text-align:left;
+height:65px;
+overflow:auto;
+}
+#rss4 { 
+width:538px;
+margin-top:10px;
+margin-bottom:10px;
+font-size:12px;                          
+line-height:1.5;
+padding:1px;
+background-color:#FFFFFF;
+}
+.inner-rss4 { 
+text-align:left;
+height:125px;
+overflow:auto;
+border:#a0a0a0 1px solid;
+}
+
+.new-e { 
+text-align:left;
+overflow:auto;
+padding:0px;
+}
+.l-entry {
+height:65px;
+overflow:auto;
+padding:5px;
+}
+.archie {
+width:115px;
+height:228px;
+color:#ffffff;
+font-size:12px;                          
+padding:5px 0px 5px 5px;
+background-color:#777777;
+margin:0px 0px 0px 0px;
+border:#ffffff 1px solid;
+}
+.archie a:link    { color:#ffffff; } 
+.archie a:active  { color:#ffffff; }
+.archie a:visited { color:#ffffff; }
+.archie a:hover   { color:#c0c0c0;text-decoration:underline; }
+/********************************************* ▼ コメント ▼ */
+.comment_outline { 
+background-color:#FFFFFF;
+text-align:left;
+margin-top:10px;
+border:1px solid #777777;
+} 
+.comment_title { 
+font-size:13px;
+color:#ffffff;
+font-weight:bold;
+background-color:#008000;
+text-align:left;
+line-height:1.8;
+border-left: solid 10px #ff962d;
+padding:1px 0px 0px 10px;
+margin:0;
+} 
+.comment_body { 
+font-size:13px;
+color:#000000;
+margin:0px 0px;
+border-top:3px solid #999999;
+} 
+.comment_text { 
+text-align:left;
+margin:0px 0px;
+padding:10px 10px 10px 10px;
+}
+.comment_navi { 
+text-align:right;                 /* 時刻・投稿者 */
+margin:5px 5px;
+} 
+/********************************************* ▲ コメント ▲ */
+
+
+/********************************************* ▼ アップフッター ▼ */
+#ufooter_outline {
+border-top:2px solid #ffffff;                    /* 外枠の色   */
+background-color:#666666;
+margin:0px 0px 0px 0px;
+}
+#ufooter_body {
+font-size:12px;
+color:#ffffff;
+padding:20px 10px 10px 10px; 
+} 
+.prof { width:165px;float:left; }
+.uf-title { height:20px;line-height:24px;font-weight:bold;border-bottom:2px solid #ffffff;margin-bottom:15px; }
+.links-top { width:570px;float:left;margin-left:10px; }
+.links { float:left; }
+.access-rank {width:240px;float:right; }
+
+#ufooter_body a:link    { color:#ffffff; } 
+#ufooter_body a:active  { color:#ffffff; }
+#ufooter_body a:visited { color:#ffffff; }
+#ufooter_body a:hover   { color:#c0c0c0;text-decoration:underline; }
+/********************************************* ▲ アップフッター ▲ */
+
+
+/********************************************* ▼ フッター ▼ */
+#footer_outline {
+text-align:center;
+border-top:2px solid #ffffff;                    /* 外枠の色   */
+background-color:#333333;
+margin:0px 0px 0px 0px;
+}
+#footer_body {
+font-size:13px;
+color:#ffffff;
+padding:10px; 
+} 
+.footerad {
+margin:auto;
+margin-top:10px;
+text-align:center;
+}
+#footer_body a:link    { color:#c0c0c0; } 
+#footer_body a:active  { color:#c0c0c0; }
+#footer_body a:visited { color:#c0c0c0; }
+#footer_body a:hover   { color:#ffffff;text-decoration:underline; }
+/********************************************* ▲ フッター ▲ */
+
+
+/*** その他 ***/
+p { margin: 2px 0; }
+ul { margin:2px 0 5px 0; padding:0; list-style-type: none; } 
+li { margin-left:0px; } 
+form { margin:0; }
+img { border:0px; padding: 0px 0px 0px 0px; }
+.img-frame { border:1px solid #c0c0c0; }
+table { font-size:10pt; }
+.c-both { clear:both; } 
+.readclose { margin: 10px 0; } 
+
+.readmore {
+width:163px;
+height:24px;
+line-height:24px;
+text-align:center;
+float:left;
+border:1px solid #555555;
+} 
+.more {
+display:block;
+background:#555555;
+} 
+a:link.more { color:#ffffff; } 
+a:active.more { color:#ffffff; }
+a:visited.more { color:#ffffff; }
+a:hover.more { color:#555555;background:#ffffff;text-decoration:none; }
+
+.readhatena {
+width:163px;
+height:24px;
+line-height:24px;
+text-align:center;
+float:left;
+margin-left:1px;
+border:1px solid #004080;
+} 
+.hatena {
+display:block;
+background:#004080;
+} 
+a:link.hatena { color:#ffffff; } 
+a:active.hatena { color:#ffffff; }
+a:visited.hatena { color:#ffffff; }
+a:hover.hatena { color:#004080;background:#ffffff;text-decoration:none; }
+
+.readrank {
+width:163px;
+height:24px;
+line-height:24px;
+text-align:center;
+float:left;
+margin-left:1px;
+border:1px solid #56c802;
+} 
+.rank {
+display:block;
+background:#56c802;
+} 
+a:link.rank { color:#ffffff; } 
+a:active.rank { color:#ffffff; }
+a:visited.rank { color:#ffffff; }
+a:hover.rank { color:#56c802;background:#ffffff;text-decoration:none; }
+
+.page_navi {
+margin:10px 0px 0px 0px;
+width:540px;
+font-size:13px;
+text-align:center;
+background:#ddd;
+}
+.per-navi {
+padding:5px;
+text-align:left;
+background:#ffffff;
+border:1px solid #777777;
+}
+
+.blockquote {
+margin-right: 2em;
+margin-left: 2em;
+padding: 10px;
+border: solid 1px #000000;
+width: auto;
+color: #000000;
+}
+
+.side-t { 
+font-size:13px;
+color:#ffffff;
+height:28px;
+line-height:28px;
+font-weight:bold;
+padding:1px 0px 0px 10px; 
+margin-top:0px; 
+} 
+.side-c { 
+padding:10px 10px 10px 10px;
+} 
+
+.pr_outline { 
+background-color:#FFFFFF;
+margin:10px 0px 0px 0px;
+} 
+.pr_outline_in { 
+border-top:#777777 1px solid;
+border-left:#777777 1px solid;
+border-right:#777777 1px solid;
+} 
+.pr_title { 
+font-size:13px;
+font-weight:bold;
+color:#ffffff;
+background-color:#008000;
+text-align:left;
+height:28px;
+line-height:28px;
+border-left: solid 10px #ff962d;
+padding:1px 0px 0px 10px;
+} 
+.pr_body { 
+border-top:3px solid #999999;
+} 
+
+.in-td-l {
+font-size:11px;
+padding:5px;
+width:170px;
+background-color:#ddeeff;
+}
+.in-td-r {
+font-size:11px;
+padding:5px;
+width:290px;
+background-color:#e9ffc4;
+}
+
+.tor-td-l {
+font-size:13px;
+padding:5px;
+width:100px;
+background-color:#ffebe1;
+}
+.tor-td-r {
+font-size:13px;
+padding:5px;
+width:240px;
+background-color:#fff4fa;
+}
+
+.tor-td-l2 {
+font-size:13px;
+padding:5px;
+width:115px;
+background-color:#ddeeff;
+}
+.tor-td-r2 {
+font-size:13px;
+padding:5px;
+width:262px;
+background-color:#e9ffc4;
+}
+
+.ps3dc-l {
+font-size:13px;
+padding:5px;
+width:100px;
+background-color:#ffebe1;
+}
+.ps3dc-r {
+font-size:13px;
+padding:5px;
+width:277px;
+background-color:#fff4fa;
+}
+
+.pink-l {
+text-align:center;
+font-size:13px;
+margin: 5px 0px 5px 0px ;
+font-weight:bold;
+color:#333333;
+padding:3px 0px 1px 0px;
+border-left: solid 7px #ff00ff;
+border-bottom: solid 1px #ff00ff;
+border-right: solid 7px #ff00ff;
+border-top: solid 1px #ff00ff;
+}
+
+.pankuzu {
+font-size:12px; 
+color:#111111;
+font-weight:bold;
+text-align:left; 
+line-height:32px;
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+} 
+
+.pankuzu a:link {color:#111111;text-decoration:none;} 
+.pankuzu a:active {color:#111111;text-decoration:none;} 
+.pankuzu a:visited {color:#111111;text-decoration:none;}
+.pankuzu a:hover {color:#ff0000;text-decoration:underline;} 
+
+
+.td-link { font-weight:bold;font-size:10pt;float:left;height:25px;padding:2px 0px 0px 0px;" }
+
+.f1set01 { color:#ffffff;background-color:#ff5353;font-weight:bold;padding-left:5px; }
+.f1set02 { color:#ffffff;background-color:#888888;font-weight:bold;padding-left:5px; }
+.f1set03 { color:#ffffff;background-color:#c0c0c0;font-weight:bold;padding-left:5px; }
+
+
+/* ----------------------------------------------- */
+/*
+
+      BlogRoll css
+
+*/
+/* ----------------------------------------------- */
+
+
+
+/**************************************************************/
+/* フッターにある著作権表示(リンク)さえ残して頂ければ         */
+/* どんなにカスタマイズされても構いません。また、             */
+/* どのようなサイトでも利用してくださって結構です。           */
+/* 何か解からないことがあれば何でも聞いてください。           */
+/*                             Templ8@FC2blog                 */
+/* [templ8_3kuro]             (http://templ8.blog55.fc2.com/) */
+/**************************************************************/
