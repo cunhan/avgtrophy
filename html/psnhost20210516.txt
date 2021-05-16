@@ -1,4 +1,5 @@
-﻿27.148.138.32 commerce.api.np.km.playstation.net
+127.0.0.1 f10.jpddl.com
+27.148.138.32 commerce.api.np.km.playstation.net
 104.118.142.132 accounts.api.playstation.com
 14.29.44.184 asm.np.community.playstation.net
 23.44.54.53 dms.api.playstation.com
