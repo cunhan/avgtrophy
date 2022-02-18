@@ -269,3 +269,4 @@ PPTV-4,rtsp://183.59.144.18/PLTV/88888905/224/3221228020/10000100000000060000000
 外网收集,#genre#
 CGTN记录频道,http://39.130.202.77:6610/gitv_live/G_CGTVJL-HD/G_CGTVJL-HD.m3u8
 CCTV4K超高清[1920*1080],http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
+纯享4K,http://39.135.187.130/0000000000001001/1/index.m3u8?Contentid=1000000004000011651&livemode=1&stbId=2&channel-id=ystenlive
