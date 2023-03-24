@@ -220,6 +220,22 @@ CHC家庭影院,http://lu1.cc/itv/php/as.php?id=chcjtyy#http://hlsbkmgsplive.mig
 
 广东,#genre#
 
+佛山综合,http://121.51.249.73/xmplay.fstv.com.cn/live/xingmu20211111163434G0Bw.m3u8#http://lu1.cc/itv/gdtv/fsxl.php?id=fszh#http://lu1.cc/itv/php/gudou.php?id=fszh#http://lu1.cc/itv/php/gudou.php?id=fszhhd
+
+佛山公共,http://121.51.249.73/xmplay.fstv.com.cn/live/xingmu20220818165035f3Ym.m3u8#http://lu1.cc/itv/gdtv/fsxl.php?id=fsgg#http://lu1.cc/itv/php/gudou.php?id=fsgg#http://lu1.cc/itv/php/gudou.php?id=fsgghd
+
+佛山影视,http://121.51.249.73/xmplay.fstv.com.cn/live/xingmu20211111163523oBdp.m3u8#http://lu1.cc/itv/gdtv/fsxl.php?id=fsys#http://lu1.cc/itv/php/gudou.php?id=fsys
+
+佛山南海,http://121.51.249.73/xmplay.fstv.com.cn/live/xingmu202111111635455Do3.m3u8#http://lu1.cc/itv/gdtv/fsxl.php?id=fsnh#http://lu1.cc/itv/php/gudou.php?id=fsnh
+
+佛山顺德,http://121.51.249.73/xmplay.fstv.com.cn/live/xingmu20211111163633BJEU.m3u8#http://lu1.cc/itv/gdtv/fsxl.php?id=fssd#http://lu1.cc/itv/php/gudou.php?id=fssd
+
+佛山高明,http://121.51.249.73/xmplay.fstv.com.cn/live/xingmu202111111637516YDa.m3u8#http://lu1.cc/itv/gdtv/fsxl.php?id=fsgm
+
+佛山三水,http://121.51.249.73/xmplay.fstv.com.cn/live/xingmu20211111163722fIkX.m3u8#http://lu1.cc/itv/gdtv/fsxl.php?id=fsss
+
+大湾区卫视,http://lu1.cc/itv/gdtv/gdtv.php?id=nfws#http://lu1.cc/itv/php/itouch.php?id=nfws#http://hlsbkmgsplive.miguvideo.com/wd_r3/2018/nfmedia/nfws/1000/index.m3u8?&encrypt=#http://121.51.249.73/4403-txt.otvstream.otvcloud.com/otv/skcc/live/channel58/index.m3u8#http://lu1.cc/itv/php/gudou.php?id=dwqws#http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226218/1.m3u8#http://lu1.cc/itv/gdtv/gdzb.html?id=nfws
+
 广东珠江,http://lu1.cc/itv/gdtv/gdtv.php?id=gdzj#http://lu1.cc/itv/php/itouch.php?id=gdzj#http://121.51.249.73/4403-txt.otvstream.otvcloud.com/otv/skcc/live/channel65/index.m3u8#http://lu1.cc/itv/php/gudou.php?id=gdzj#http://lu1.cc/itv/gdtv/gdzb.html?id=gdzj
 
 广东民生,http://lu1.cc/itv/gdtv/gdtv.php?id=gdms#http://lu1.cc/itv/php/itouch.php?id=gdms#http://121.51.249.73/4403-txt.otvstream.otvcloud.com/otv/skcc/live/channel45/index.m3u8#http://lu1.cc/itv/php/gudou.php?id=gdms#http://lu1.cc/itv/gdtv/gdzb.html?id=gdms
