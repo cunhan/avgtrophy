@@ -1,0 +1,15 @@
+# 内容：日本网站
+
+#DMM
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmm.co.jp
+#一次性邮箱
+DOMAIN-SUFFIX,kuku.lu
+#BT
+DOMAIN-SUFFIX,ehtracker.org
+#AV官网
+DOMAIN-SUFFIX,prestige-av.com
+#黄漫
+DOMAIN-SUFFIX,komiflo.com
+#DMM问卷
+DOMAIN-SUFFIX,macromill.com

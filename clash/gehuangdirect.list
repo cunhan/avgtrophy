@@ -1,0 +1,5 @@
+# 内容：需要直连的国外网站
+
+DOMAIN-SUFFIX,extmatrix.com
+DOMAIN,checkip.amazonaws.com,DIRECT
+DOMAIN-SUFFIX,kantangame.com,DIRECT  
